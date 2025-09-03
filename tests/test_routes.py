@@ -13,7 +13,7 @@ from tests.factories import AccountFactory
 from service.common import status  # HTTP Status Codes
 from service.models import db, Account, init_db
 from service.routes import app
-from flask_cors import CORS
+
 
 # ######################################################################
 # # G L O B A L   V A R I A B L E S
